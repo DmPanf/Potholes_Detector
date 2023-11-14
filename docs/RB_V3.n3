@@ -1,0 +1,47 @@
+@prefix ind:<URN:inds:>. 
+@prefix prop:<URN:prop:>. 
+@prefix classes:<URN:classes:>. 
+@prefix rdfs:<http://www.w3.org/2000/01/rdf-schema#>. 
+@prefix owl: <http://www.w3.org/2002/07/owl#> . 
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . 
+ 
+
+classes:Process a owl:Class .
+
+ind:proc0 rdfs:domain classes:Process .
+
+prop:hasKPI a owl:ObjectProperty ;
+       a owl:IrreflexiveProperty ;
+       a owl:AsymmetricProperty .
+
+prop:hasResource a owl:ObjectProperty ;
+       a owl:AsymmetricProperty .
+
+prop:hasInput a owl:ObjectProperty ;
+       a owl:AsymmetricProperty .
+
+prop:hasOutput a owl:ObjectProperty ;
+       a owl:AsymmetricProperty .
+
+prop:SubProcess a owl:ObjectProperty ;
+       a owl:AsymmetricProperty ;
+       a owl:TransitiveProperty ;
+       a owl:IrreflexiveProperty .
+
+ind:AllResources a owl:Class ;
+       owl:oneOf ind:res1, ind:res2, ind:res3, ind:res4, ind:res5, ind:res6 .
+
+ind:AllKPIs a owl:Class ;
+       owl:oneOf ind:kpi1, ind:kpi2, ind:kpi3, ind:kpi4 .
+
+prop:hasResource owl:propertyDisjointWith prop:hasKPI .
+
+ind:np1 a owl:NegativePropertyAssertion ;
+       owl:SourceIndividual ind:proc02 ;
+       owl:AssertionProperty ind:hasResource ;
+       owl:TargetValue ind:res4 .
+
+ind:np2 a owl:NegativePropertyAssertion ;
+       owl:SourceIndividual ind:proc03 ;
+       owl:AssertionProperty ind:hasResource ;
+       owl:TargetValue ind:res4 .

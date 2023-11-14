@@ -1,0 +1,37 @@
+Table source_files {
+  ID integer [primary key]
+  Date timestamp 
+  Time timestamp
+  client_IP_FK string [ref: > clients.ID]
+  user_ID_FK integer [ref: > users.ID]
+  yoloclass integer
+  X float 
+  Y float 
+  W float
+  H float
+  accuracy float 
+  imgW integer 
+  imgH integer 
+  maxR integer 
+  longitude float 
+  latitude float 
+  pothole bool 
+  number integer 
+  filetype varchar // image
+  filename varchar 
+  filesize float
+  duration integer
+  rem varchar
+}
+
+Table users {
+  ID integer [primary key]
+  username_tg varchar
+  mobile varchar
+}
+
+Table clients {
+  ID integer [primary key]
+  ip varchar
+  name varchar
+}
