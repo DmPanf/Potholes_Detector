@@ -19,7 +19,7 @@ This project and everyone participating in it is governed by our [Code of Conduc
 
 ### Code Contributions
 
-1. **Fork** the repository and create your branch from `master`.
+1. **Fork** the repository and create your branch from `main`.
 2. **Clone** the repository to your local machine.
 3. Make your changes.
 4. Run the test suite to ensure that your changes work properly.
