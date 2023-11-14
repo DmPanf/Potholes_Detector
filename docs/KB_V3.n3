@@ -1,0 +1,88 @@
+@prefix ind:<URN:inds:>.
+@prefix prop:<URN:prop:>.
+@prefix classes:<URN:class>.
+@prefix rdfs:<http://www.w3.org/2000/01/rdf-schema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+
+ind:proc0 a classes:Process ; 
+        rdfs:label "Recognition of potholes on a road" ; 
+        rdf:isDefinedBy	"Team1" ; 
+        prop:hasKPI	ind:kpi1 ;
+        prop:hasKPI	ind:kpi2 ; 
+        prop:hasKPI	ind:kpi3 ; 
+        prop:hasKPI	ind:kpi4 ; 
+        prop:hasResource ind:AllResources ; 
+        prop:hasInput	ind:inp00 ; 
+        prop:hasOutput	ind:out00 . 
+
+ind:proc01 prop:SubProcess ind:proc0 ; 
+        rdfs:label "Data preparation" ; 
+        prop:hasKPI	ind:kpi1 ; 
+        prop:hasKPI	ind:kpi4 ; 
+        prop:hasResource ind:res4 ; 
+        prop:hasInput	ind:inp00 ; 
+        prop:hasOutput	ind:out01 . 
+        
+ind:proc02 prop:SubProcess ind:proc0 ; 
+        rdfs:label "Intelligent System Architecture" ; 
+        prop:hasKPI	ind:kpi2 ; 
+        prop:hasKPI	ind:kpi3 ; 
+        prop:hasResource ind:res3 ; 
+        prop:hasResource ind:res5 ; 
+        prop:hasResource ind:res6 ; 
+        prop:hasResource ind:res1 ; 
+        prop:hasResource ind:res2 ; 
+        prop:hasResource ind:out03 ;
+        prop:hasInput	ind:out12 ; 
+        prop:hasOutput	ind:out23 . 
+        
+ind:proc03 prop:SubProcess ind:proc0 ; 
+        rdfs:label "Data Recognition" ; 
+        prop:hasKPI	ind:kpi2 ; 
+        prop:hasKPI	ind:kpi3 ; 
+	prop:hasResource ind:res1 ; 
+        prop:hasResource ind:res2 ; 
+        prop:hasInput	ind:out23 ; 
+        prop:hasOutput	ind:out03 . 
+
+ind:proc11 prop:SubProcess ind:proc01 ; 
+        rdfs:label "Data selecting"; 
+        prop:hasKPI	ind:kpi1 ; 
+        prop:hasResource ind:res4 ; 
+        prop:hasInput	ind:inp00 ; 
+        prop:hasOutput	ind:out11 . 
+
+ind:proc12 prop:SubProcess ind:proc01 ; 
+        rdfs:label "Data labeling" ; 
+        prop:hasKPI	ind:kpi1 ;
+        prop:hasKPI	ind:kpi4 ;
+        prop:hasResource ind:res5 ; 
+        prop:hasInput	ind:out11 ; 
+        prop:hasOutput	ind:out12 . 
+
+ind:proc21 prop:SubProcess ind:proc02 ; 
+        rdfs:label "NN Architecture" ; 
+        prop:hasKPI	ind:kpi3 ; 
+        prop:hasResource ind:res6 ; 
+        prop:hasResource ind:res3 ; 
+        prop:hasInput	ind:out12 ; 
+        prop:hasOutput	ind:out21 . 
+
+ind:proc22 prop:SubProcess ind:proc02 ; 
+        rdfs:label "Client-Server Architecture" ; 
+        prop:hasKPI	ind:kpi2 ; 
+        prop:hasResource ind:res1 ; 
+        prop:hasResource ind:res2 ; 
+        prop:hasInput	ind:out21 ; 
+        prop:hasOutput	ind:out22 . 
+
+ind:proc23 prop:SubProcess ind:proc02 ; 
+        rdfs:label "Modules Integration" ; 
+        prop:hasKPI	ind:kpi2 ; 
+        prop:hasResource ind:res1 ; 
+        prop:hasResource ind:res2 ; 
+        prop:hasResource ind:res3 ; 
+        prop:hasInput	ind:out22 ; 
+        prop:hasOutput	ind:out23 . 
