@@ -31,3 +31,6 @@ This project is licensed under the Apache License 2.0. For more details, see the
 ## Contact
 
 Provide contact information for users to reach out with questions or feedback.
+
+
+![Project Draft](./assets/draft0.jpg)
