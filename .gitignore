@@ -1,0 +1,51 @@
+# <-- Editors
+.obsidian/
+.typora/
+.local/
+
+## IDE-specific
+.vim/
+.nvim/
+.vscode/
+.idea/
+
+## Eclipse
+.classpath
+.project
+.settings/
+
+## IntelliJ IDEA
+*.iml
+*.iws
+*.ipr
+
+## Xcode & MacOS
+*.xcodeproj
+xcuserdata/
+.DS_Store
+*.DS_Store
+
+# VS Code
+*.suo
+*.user
+*.userosscache
+
+# Docker
+
+## Docker Compose override file
+docker-compose.override.yml
+
+# <-- General
+*.swp
+*.swo
+*.swn
+*.bak
+*.save
+*.tmp
+*.temp
+*.local
+*.cache
+*.log
+*.log.*
+log/
+cache/
