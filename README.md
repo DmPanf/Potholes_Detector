@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Briefly describe your project here. Explain what it does and why it is useful. Highlight the main features and benefits of the project.
+- to describe the main features and benefits of the project.
 
 ![image](https://github.com/DmPanf/Potholes_Detector/assets/99917230/765a923d-86cb-4a2f-b6b8-b89834075192)
 
@@ -12,19 +12,27 @@ Briefly describe your project here. Explain what it does and why it is useful. H
 
 ### Prerequisites
 
-List any prerequisites needed to install and run your project.
+- to list any prerequisites needed to install and run the project.
+
+![image](https://github.com/DmPanf/Potholes_Detector/assets/99917230/ac37309d-2da8-44d5-b008-bd7d493ae380)
+
 
 ### Installation
 
-Provide step-by-step instructions on how to set up the project environment.
+- to provide step-by-step instructions on how to set up the project environment.
+
+![image](https://github.com/DmPanf/Potholes_Detector/assets/99917230/dbfc558e-4620-4c8b-aeb8-375ca3f44930)
+
+![image](https://github.com/DmPanf/Potholes_Detector/assets/99917230/fe53dfde-9c91-4281-a978-2cd30cc03bde)
+
 
 ## Usage
 
-Explain how to use your project after installation. Include examples for clarity.
+- to explain how to use project after installation. Include examples for clarity.
 
 ## Collaboration
 
-Encourage contributions. Explain how others can contribute to your project.
+- to explain how others can contribute to the project.
 
 ## License
 
@@ -34,5 +42,5 @@ This project is licensed under the Apache License 2.0. For more details, see the
 
 ## Contact
 
-Provide contact information for users to reach out with questions or feedback.
+- to provide contact information for users to reach out with questions or feedback.
 
