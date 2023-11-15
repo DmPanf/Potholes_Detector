@@ -11,3 +11,7 @@
 ## IDEF0
 
 ![image](https://github.com/DmPanf/Potholes_Detector/assets/99917230/3f640203-0101-43e2-b55c-19de5898bc39)
+
+## CVAT
+
+![image](https://github.com/DmPanf/Potholes_Detector/assets/99917230/bd1b478f-4992-427d-b84e-7444ae8e7057)
