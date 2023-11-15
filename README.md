@@ -4,6 +4,8 @@
 
 Briefly describe your project here. Explain what it does and why it is useful. Highlight the main features and benefits of the project.
 
+![image](https://github.com/DmPanf/Potholes_Detector/assets/99917230/765a923d-86cb-4a2f-b6b8-b89834075192)
+
 ## Getting Started
 
 ### Prerequisites
@@ -32,5 +34,3 @@ This project is licensed under the Apache License 2.0. For more details, see the
 
 Provide contact information for users to reach out with questions or feedback.
 
-
-![Project Draft](./assets/draft0.jpg)
