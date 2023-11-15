@@ -30,6 +30,15 @@
 
 - to explain how to use project after installation. Include examples for clarity.
 
+  
+### Jetson Nano Implementation (to be discussed)
+
+![image](https://github.com/DmPanf/Potholes_Detector/assets/99917230/d650943a-623a-48a5-beba-2457b9e5e021)
+
+### Google Pixel 6a Smartphone Implementation (to be discussed)
+
+![image](https://github.com/DmPanf/Potholes_Detector/assets/99917230/4862eaf5-3ef7-443c-a782-7cb3c726198d)
+
 ## Collaboration
 
 - to explain how others can contribute to the project.
