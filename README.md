@@ -8,6 +8,8 @@ Briefly describe your project here. Explain what it does and why it is useful. H
 
 ## Getting Started
 
+![image](https://github.com/DmPanf/Potholes_Detector/assets/99917230/ab0068df-493e-4182-bbb4-8372bfdc7b93)
+
 ### Prerequisites
 
 List any prerequisites needed to install and run your project.
