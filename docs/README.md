@@ -6,3 +6,8 @@
 
 
 ![image](https://github.com/DmPanf/Potholes_Detector/assets/99917230/5d5b87dc-1489-462c-aad7-36a14c7a787b)
+
+
+## IDEF0
+
+![image](https://github.com/DmPanf/Potholes_Detector/assets/99917230/3f640203-0101-43e2-b55c-19de5898bc39)
