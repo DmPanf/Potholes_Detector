@@ -41,3 +41,7 @@
 ## Google Pixel 6a Smartphone Implementation (to be discussed)
 
 ![image](https://github.com/DmPanf/Potholes_Detector/assets/99917230/4862eaf5-3ef7-443c-a782-7cb3c726198d)
+
+## SQL
+
+![pothole (2)](https://github.com/DmPanf/Potholes_Detector/assets/99917230/26faa626-6b66-4386-97b0-8c3ac6948b16)
