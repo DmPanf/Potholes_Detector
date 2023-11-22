@@ -33,10 +33,11 @@
 
 ![image](https://github.com/DmPanf/Potholes_Detector/assets/99917230/4e220a6a-2bb1-445e-821f-18ed44d2fdf1)
 
-
+---
 
 ## SQL
 
 ![pothole (2)](https://github.com/DmPanf/Potholes_Detector/assets/99917230/26faa626-6b66-4386-97b0-8c3ac6948b16)
 
 ##
+
