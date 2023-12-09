@@ -30,6 +30,8 @@
 
 - to explain how to use project after installation. Include examples for clarity.
 
+![image](https://github.com/DmPanf/Potholes_Detector/assets/99917230/77a01649-d9b5-41d9-ba62-93cb407c0b42)
+
   
 #### Jetson Nano Implementation (to be discussed)
 
