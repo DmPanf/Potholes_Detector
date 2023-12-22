@@ -17,3 +17,8 @@
 ---
 
 ![image](https://github.com/DmPanf/Potholes_Detector/assets/99917230/d176cf95-5add-4f1c-84de-4a26799c4146)
+
+
+## Ideas
+
+![image](https://github.com/DmPanf/Potholes_Detector/assets/99917230/93abe4e6-c2a3-408c-90eb-64d8847415c1)
