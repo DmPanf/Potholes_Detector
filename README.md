@@ -56,5 +56,27 @@ Here's how and where we could use a multi-agent system for detecting potholes:
 
 - **Future Integration in Modern Cars**: Looking ahead, modern cars equipped with advanced sensors and cameras can be utilized for pothole detection. These vehicles, especially those with features like heads-up displays, can project signs and information about the road surface, including potholes, directly onto the driver's windshield. This not only contributes to the pothole detection database but also immediately informs drivers about potential road hazards, enhancing safety.
 
+## Main Components of FastAPI: 
+
+- **Pydantic for Data Handling**: It's used for data validation and settings management, which simplifies parsing and validating JSON data. 
+
+- **Path Operations**: FastAPI uses path operations like GET, POST, PUT, and DELETE, which are essential for building APIs. 
+
+- **Dependency Injection System**: FastAPI has a powerful, but easy-to-use dependency injection system. It allows you to have reusable dependencies that you can inject into your route functions. 
+
+- **Starlette for the Web Layer**: This handles all the web interactions - routes, requests, and responses. It's what allows FastAPI to be a fully-functional web framework. 
+
+- **Background Tasks**: FastAPI allows you to run functions in the background. This is useful for operations that need to happen after returning a response. 
+
+- **WebSockets Support**: FastAPI also supports WebSockets, which allows for real-time communication between the client and the server. 
+
+- **Testing**: FastAPI provides easy testing with Pytest, making it simple to check the behavior of your applications. 
+
+- **Swagger UI**: Swagger UI is a great tool for anyone developing or using an API. It's like an instruction manual and control panel for your API, all in one. 
+
+![image](https://github.com/DmPanf/Potholes_Detector/assets/99917230/331ee411-b62a-479f-8eb8-c829d09a35be)
+
+
+
 
 In each case, these agents work independently but contribute to a central system that collects, analyzes, and responds to the data on potholes, which helps the city fix roads faster and more efficiently. This can lead to safer driving, fewer accidents, and happy citizens. 
