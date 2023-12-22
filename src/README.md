@@ -92,3 +92,33 @@ The image depicts a series of plots showing various metrics and loss values over
 - **mAP (Mean Average Precision) at IOU=50 and IOU=50-95**: The mAP at IOU=50 is near perfect, which suggests that the model is very accurate when the Intersection Over Union (IOU) threshold is at 50%. The mAP at IOU thresholds between 50% and 95% shows a gradual increase, which suggests the model performs well across a range of strictness in overlap criteria, although it's less accurate at the highest thresholds.
 
 Overall, the plots indicate that the model has trained effectively, with loss metrics showing improvement and performance metrics indicating high precision and recall. The mAP scores suggest that the model is quite robust, performing well across different IOU thresholds. This suggests that the model would likely perform well in practical applications, such as detecting potholes in various conditions.
+
+---
+
+## The objective function
+
+The objective function described here is specifically designed to evaluate the performance of a model tasked with pothole detection. This function plays a central role in the model's training process, as it quantifies the model's accuracy in classifying potholes. The primary goal during training is to minimize this function, which, in essence, means reducing the number of errors the model makes in pothole prediction.
+
+The objective function is defined as:
+
+\[ E(N_{ep}, \text{datasets}, \text{augmentation}, I_r, N_{pic}) = N_{cor} - N_{incor} \rightarrow \min \]
+
+Where the components of the function are:
+
+- **E**: This represents the pothole classification error. It's a measure of how well the model is performing, with a lower value indicating better performance.
+
+- **Ncor (Correctly Detected Potholes)**: This is the number of potholes that the model has correctly identified. A higher count of correctly detected potholes contributes positively to model performance.
+
+- **Nincor (Missed Potholes)**: This counts the potholes that the model failed to detect. The goal is to minimize this number, as each missed pothole is a classification error.
+
+- **Nep (Number of Epochs)**: This refers to the number of complete passes through the training dataset. The number of epochs can affect the model’s learning and its eventual performance.
+
+- **Ir (Image Resolution)**: The resolution of images used in training can significantly impact the model's ability to detect potholes accurately. Different resolutions may be experimented with to find the optimal setting for the model.
+
+- **Datasets**: These are collections of images used for training, encompassing various weather conditions like dry, rainy, snowy, etc. The diversity in the datasets ensures that the model is robust and can perform well under different real-world conditions.
+
+- **Augmentation**: This is the process of artificially expanding the training dataset by altering the images, such as by rotating, cropping, changing brightness, etc. Augmentation helps in making the model more generalizable and less prone to overfitting.
+
+- **Npic (Number of Elements in the Training Set)**: This is the total number of images or elements in the training dataset. A larger dataset can provide more comprehensive training, but it also requires more computational resources.
+
+By focusing on minimizing this objective function, the training process aims to enhance the model's ability to accurately detect potholes while reducing the likelihood of missing any. This optimization leads to a more reliable and effective pothole detection model.
