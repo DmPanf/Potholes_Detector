@@ -49,9 +49,7 @@
 
 This project is licensed under the Apache License 2.0. For more details, see the [LICENSE](LICENSE) file.
 
-> `Copyright 2023 Dmitrii Panfilov`
+> `Copyright 2023 Team1`
 
-### Contact
-
-- to provide contact information for users to reach out with questions or feedback.
+### 
 
