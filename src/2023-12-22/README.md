@@ -9,3 +9,5 @@ The best approach for our project is to build a system with several smart parts 
 -	Telegram Bot with AIOGram: This is like a remote control for our project based on common Docker local network with FastAPI with fast communication. We can use it to change settings or check on things without having to be at the computer all the time.
 -	Confidence, Skyline, Mode Settings: These settings let us adjust how picky our pothole detector is and to select settings for a specific configuration of equipment on the agent for detecting potholes on the roads . We can make it more or less strict depending on what we need, or how the equipment is installed (for example, the angle of the surveillance camera), etc.
 -	User Access and Server Choices: We can decide who gets to use our system and which server should do the work. If one server is busy, we could have a backup ready.
+
+
