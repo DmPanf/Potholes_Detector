@@ -123,4 +123,7 @@ In summary, while we have achieved key milestones in pothole detection and user 
 ![image](https://github.com/DmPanf/Potholes_Detector/assets/99917230/39758834-a657-43bc-925c-0248186a80d6)
 
 
-## 
+## Links
+
+- https://github.com/tensorflow/models/tree/master/research/object_detection?ref=gilberttanner.com
+- 
