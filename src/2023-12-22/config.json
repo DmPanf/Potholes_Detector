@@ -1,0 +1,30 @@
+{
+    "servers": [
+        {
+            "name": "SERVER-1 [Docker LAN app:8001]",
+            "url": "http://app:8001"
+        },
+        {
+            "name": "SERVER-3 [localhost:8001]",
+            "url": "http://localhost:8001"
+        },
+        {
+            "name": "SERVER-4 [Private LAN]",
+            "url": "http://XXXX:8001"
+        },
+        {
+            "name": "SERVER-4 [Private WAN]",
+            "url": "http://YYYY:8001"
+        }
+    ],
+    "Skyline": 27,
+    "Confidence": 0.65,
+    "Alarm_Size": 60.0,
+    "GPU_Speed": 500.0,
+    "Active_Mode": "Grid",
+    "Modes_List": [
+        "Basic",
+        "Grid",
+        "YOLOv8"
+    ]
+}
