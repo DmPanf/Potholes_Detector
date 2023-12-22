@@ -2,7 +2,6 @@
 
 ## Swagger UI (FastAPI)
 
-![image](https://github.com/DmPanf/Potholes_Detector/assets/99917230/edd3c110-356a-4100-a682-81291041d32c)
 
 
 ## Telegram Bot
@@ -13,6 +12,7 @@
 
 ![image](https://github.com/DmPanf/Potholes_Detector/assets/99917230/bb3e16e6-24e6-433b-8ec7-e63c76ddb705)
 
+![image](https://github.com/DmPanf/Potholes_Detector/assets/99917230/5f594992-1c35-4153-80bf-ff26bf1c3e85)
 
 ---
 
