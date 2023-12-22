@@ -1,4 +1,4 @@
-## 
+## A high-level architecture diagram
 
 ![image](https://github.com/DmPanf/Potholes_Detector/assets/99917230/1558b991-b4ca-431b-a1f3-505c9e08c910)
 
@@ -28,3 +28,67 @@ This setup allows users to interact with a complex system through the familiar i
 The user interface of a Telegram bot typically involves chat interactions where users can send messages, commands, or queries, and receive responses. When a user inputs data incorrectly, the bot is programmed to recognize these errors and provide feedback. This feedback usually includes an error message explaining what went wrong and suggestions for how to input the correct data.
 
 For example, if a user is supposed to enter a date in a specific format (like YYYY-MM-DD) and they enter it incorrectly, the bot might respond with a message such as, "The date format is incorrect. Please enter the date in the 'YYYY-MM-DD' format." This helps guide users towards successful interactions with the bot.
+
+
+## Training Results
+
+## The Confusion Matrix
+
+![image](https://github.com/DmPanf/Potholes_Detector/assets/99917230/982c87ab-a1df-4bff-8e9c-b2d94c4a3438)
+
+The confusion matrix in the image represents the performance of the YOLOv8 model on one of the training datasets for pothole detection.
+
+- **True Positives (Top Left Square)**: The model correctly identified 248 instances as potholes. These are the true positives, indicating cases where the model's prediction and the actual label agree that the potholes are present.
+
+- **False Negatives (Bottom Left Square)**: There are 2 instances where the model incorrectly predicted the background (no pothole) when there was actually a pothole. These are false negatives, which suggest that the model missed detecting potholes in these cases.
+
+- **True Negatives (Bottom Right Square)**: This cell of the matrix is not explicitly labeled, but it implies the number of true negatives, where the model correctly identified there were no potholes, and there were indeed none. Since it's not labeled, we assume it might have a high number consistent with a well-performing model, but the exact value is not visible.
+
+- **False Positives (Top Right Square)**: There are 10 instances where the model incorrectly identified potholes when none were present. These are false positives, representing over-detection by the model.
+
+In conclusion, the YOLOv8 model appears to be performing quite well on this dataset, with a high number of true positives and relatively low numbers of false negatives and false positives. However, the true negative count is missing from the confusion matrix, which is essential for a complete understanding of the model's performance, particularly its specificity. The high number of true positives and low number of false negatives and positives suggests that the model is effective at detecting potholes with a high degree of precision and recall.
+
+Based on the provided confusion matrix data, the following quality metrics for the YOLOv8 model training on the pothole detection dataset are calculated:
+
+- **Precision**: Approximately 96.12%, indicating a high accuracy of the model in classifying an image as containing a pothole when it does.
+
+- **Recall**: About 99.2%, showing that the model is highly capable of identifying most of the positive pothole cases in the dataset.
+
+- **F1 Score**: Approximately 97.64%, which is a balanced measure that takes into account both the precision and the recall. This high F1 score suggests that the model has a harmonious balance of precision and recall, making it very effective in the pothole detection task.
+
+
+<code>
+# Given values from the confusion matrix
+true_positives = 248
+false_negatives = 2
+false_positives = 10
+# True negatives are not provided, but they are not needed for precision, recall, and F1 score calculations.
+
+# Precision calculation (the ability of the classifier not to label as positive a sample that is negative)
+precision = true_positives / (true_positives + false_positives)
+
+# Recall calculation (the ability of the classifier to find all the positive samples)
+recall = true_positives / (true_positives + false_negatives)
+
+# F1 Score calculation (the harmonic mean of precision and recall)
+f1_score = 2 * (precision * recall) / (precision + recall)
+
+precision, recall, f1_score
+
+</code>
+![image](https://github.com/DmPanf/Potholes_Detector/assets/99917230/419f19b0-7a9e-49e8-96f8-693d1f540004)
+
+
+The image depicts a series of plots showing various metrics and loss values over the course of training a YOLOv8 model, likely for the task of object detection such as pothole identification on roads.
+
+- **Box Loss (Train and Validation)**: These plots show the loss associated with the bounding box predictions. Both training and validation box losses decrease steadily over time, which indicates that the model is getting better at accurately predicting the location and size of the bounding boxes around the potholes.
+
+- **Class Loss (Train and Validation)**: The classification loss represents the model's ability to correctly classify the objects within the bounding boxes. Both plots show a sharp decline and then level off, suggesting that the model quickly learned to classify the objects correctly and then made incremental improvements.
+
+- **Objectness Loss (Train and Validation)**: This is depicted as "train/obj_loss" and "val/obj_loss" (though labeled as 'df1_loss' in the plots, which might be a specific notation for the dataset or framework used). These plots show the loss related to the confidence of the object presence within the bounding box. The trend is similar to the box and class losses, with a decrease over epochs indicating improving confidence in predictions.
+
+- **Precision and Recall**: These metrics are crucial for understanding the model's performance. The precision plot shows that the model is consistently accurate in its predictions, and the recall plot indicates that the model is able to identify most of the relevant objects. Both metrics appear to have reached a high level, which suggests that the model has a good balance between precision and recall.
+
+- **mAP (Mean Average Precision) at IOU=50 and IOU=50-95**: The mAP at IOU=50 is near perfect, which suggests that the model is very accurate when the Intersection Over Union (IOU) threshold is at 50%. The mAP at IOU thresholds between 50% and 95% shows a gradual increase, which suggests the model performs well across a range of strictness in overlap criteria, although it's less accurate at the highest thresholds.
+
+Overall, the plots indicate that the model has trained effectively, with loss metrics showing improvement and performance metrics indicating high precision and recall. The mAP scores suggest that the model is quite robust, performing well across different IOU thresholds. This suggests that the model would likely perform well in practical applications, such as detecting potholes in various conditions.
