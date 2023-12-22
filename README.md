@@ -126,4 +126,5 @@ In summary, while we have achieved key milestones in pothole detection and user 
 ## Links
 
 - https://github.com/tensorflow/models/tree/master/research/object_detection?ref=gilberttanner.com
+- https://ml.i-neti.ru/map-mean-average-precision/
 - 
