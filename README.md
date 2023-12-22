@@ -36,7 +36,7 @@ By fulfilling these tasks, we aim to create a tool that not only improves road c
 
 In each case, these agents work independently but contribute to a central system that collects, analyzes, and responds to the data on potholes, which helps the city fix roads faster and more efficiently. This can lead to safer driving, fewer accidents, and happy citizens.
 
-## 
+## Use Cases
 Here's how and where we could use a multi-agent system for detecting potholes: 
 
 - **In City Buses**: They travel all around the city every day. Each bus can have a camera that sends pictures to the server when it sees a pothole. 
@@ -115,3 +115,6 @@ When reflecting on a project like the Pothole Detection using YOLOv8 and FastAPI
 - **Expanding Functionality**: Future developments include adding additional features to the bot, such as custom alerts when serious potholes are detected, and integration with mapping services for better geographical tracking of road conditions. It is also planned to use additional sensors to measure the depth of potholes on roads.
 
 In summary, while we have achieved key milestones in pothole detection and user interaction, we acknowledge the challenges faced, particularly in model consistency and system scalability. The insights gained from this project are invaluable and will significantly shape our future endeavors to enhance the system's effectiveness and expand its capabilities.
+
+![image](https://github.com/DmPanf/Potholes_Detector/assets/99917230/39758834-a657-43bc-925c-0248186a80d6)
+
