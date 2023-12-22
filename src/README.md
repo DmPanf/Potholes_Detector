@@ -2,7 +2,7 @@
 
 ![image](https://github.com/DmPanf/Potholes_Detector/assets/99917230/1558b991-b4ca-431b-a1f3-505c9e08c910)
 
-Yhe image depicts a high-level architecture diagram of a system that integrates various technologies, including FastAPI, Docker, and a Telegram bot.
+The image depicts a high-level architecture diagram of a system that integrates various technologies, including FastAPI, Docker, and a Telegram bot.
 
 In simple terms, FastAPI is a modern, fast (high-performance) web framework for building APIs with Python. It's based on standard Python type hints, which helps you create robust and production-ready APIs. In this architecture, FastAPI is used to create an interface for CRUD operations (Create, Read, Update, Delete) which can be accessed via HTTP methods (POST, GET, PUT, DELETE). These operations are likely to interact with databases and potentially other services like a knowledge base or rule base.
 
@@ -22,3 +22,9 @@ Here's a breakdown of how FastAPI might work with a Telegram Bot in one Docker e
 - The Telegram bot receives the responses and delivers the results to the user in the Telegram app.
 
 This setup allows users to interact with a complex system through the familiar interface of a Telegram bot, simplifying tasks such as data retrieval, system configuration, or even controlling and monitoring machine learning models and processes.
+
+## Telegram Bot
+
+The user interface of a Telegram bot typically involves chat interactions where users can send messages, commands, or queries, and receive responses. When a user inputs data incorrectly, the bot is programmed to recognize these errors and provide feedback. This feedback usually includes an error message explaining what went wrong and suggestions for how to input the correct data.
+
+For example, if a user is supposed to enter a date in a specific format (like YYYY-MM-DD) and they enter it incorrectly, the bot might respond with a message such as, "The date format is incorrect. Please enter the date in the 'YYYY-MM-DD' format." This helps guide users towards successful interactions with the bot.
