@@ -36,6 +36,8 @@ By fulfilling these tasks, we aim to create a tool that not only improves road c
 
 In each case, these agents work independently but contribute to a central system that collects, analyzes, and responds to the data on potholes, which helps the city fix roads faster and more efficiently. This can lead to safer driving, fewer accidents, and happy citizens.
 
+---
+
 ## Use Cases
 Here's how and where we could use a multi-agent system for detecting potholes: 
 
@@ -54,6 +56,8 @@ Here's how and where we could use a multi-agent system for detecting potholes:
 - **By Google Glasses**: People wearing Google Glasses or similar augmented reality devices can contribute to pothole detection and be instantly alerted to potential hazards. When a pit is detected, the glasses can automatically capture an image and send it to the server. This method is especially effective in low-light conditions, as glasses can improve visibility, making it easier to detect potholes and report them at night or in poorly lit places, saving people from possible injury. 
 
 - **Future Integration in Modern Cars**: Looking ahead, modern cars equipped with advanced sensors and cameras can be utilized for pothole detection. These vehicles, especially those with features like heads-up displays, can project signs and information about the road surface, including potholes, directly onto the driver's windshield. This not only contributes to the pothole detection database but also immediately informs drivers about potential road hazards, enhancing safety.
+
+---
 
 ## Main Components of FastAPI: 
 
@@ -88,7 +92,7 @@ When reflecting on a project like the Pothole Detection using YOLOv8 and FastAPI
 
 - **Real-Time Processing and Feedback**: Implementing FastAPI for real-time image processing and immediate feedback was a crucial aspect we managed to achieve. This ensures that the system operates efficiently and responds quickly to user requests. 
 
- 
+---
 
 ### Challenges and Unsuccessful Attempts 
 
@@ -118,3 +122,5 @@ In summary, while we have achieved key milestones in pothole detection and user 
 
 ![image](https://github.com/DmPanf/Potholes_Detector/assets/99917230/39758834-a657-43bc-925c-0248186a80d6)
 
+
+## 
