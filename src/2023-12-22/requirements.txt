@@ -1,0 +1,17 @@
+ultralytics
+fastapi
+uvicorn
+ultralytics
+opencv-python-headless
+Pillow
+numpy
+python-multipart
+aiogram==2.11.2
+aiohttp
+python-dotenv
+requests
+# torch
+# torchvision
+matplotlib
+pydantic
+rdflib
