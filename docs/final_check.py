@@ -1,8 +1,7 @@
 # final_check.py
-import os
 
-# Пути к папкам
-train_images_dir = 'train/images'
+import os
+train_images_dir = 'train/images' # Пути к папкам
 train_labels_dir = 'train/labels'
 val_images_dir = 'val/images'
 val_labels_dir = 'val/labels'
@@ -30,6 +29,7 @@ val_images_count, val_missing_images = count_files_and_check_labels(val_images_d
 print(f"Number of images in 'train': {train_images_count}")
 print(f"Number of images in 'val': {val_images_count}")
 print(f"Total number of images: {train_images_count + val_images_count}")
+
 
 # Проверка на недостающие изображения
 if train_missing_images or val_missing_images:
