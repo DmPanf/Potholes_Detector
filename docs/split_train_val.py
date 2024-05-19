@@ -1,4 +1,5 @@
 # split_train_val.py
+
 import os
 import shutil
 import random
@@ -11,7 +12,7 @@ train_labels_dir = 'train/labels'
 val_images_dir = 'val/images'
 val_labels_dir = 'val/labels'
 
-# Создание папок для наборов данных train и val
+# Создание папок для наборов данных train и val []
 for dir in [train_images_dir, train_labels_dir, val_images_dir, val_labels_dir]:
     os.makedirs(dir, exist_ok=True)
 
@@ -35,6 +36,7 @@ def move_files(files, src_images_dir, src_labels_dir, dest_images_dir, dest_labe
         shutil.move(image_path, os.path.join(dest_images_dir, file))
         if os.path.exists(label_path):
             shutil.move(label_path, os.path.join(dest_labels_dir, file.replace('.png', '.txt')))
+
 
 # Перемещение файлов в соответствующие папки
 move_files(train_files, images_dir, labels_dir, train_images_dir, train_labels_dir)
