@@ -1,6 +1,7 @@
 ## Pothole Detector Project
 Road maintenance is a critical aspect of urban management, directly influencing safety and comfort for all traffic participants. One of the common issues that plague drivers, cyclists, and even pedestrians are potholes. Potholes can cause accidents, damage vehicles, and even impede emergency services. Addressing this issue promptly is essential for a safe and efficient transportation system. 
 
+---
 
 The goal is straightforward and quantifiable: to develop a multi-agents system capable of detecting potholes in real time with a high degree of accuracy and with a sufficiently high processing speed, marking detected potholes as dangerous or relatively safe by their width in the image. This system should be capable of being deployed in a vehicle or roadside monitoring equipment to identify and report the location of potholes to a central database. 
 
