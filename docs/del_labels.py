@@ -1,4 +1,5 @@
 # del_labels.py
+
 import os
 
 images_dir = 'images'  # Путь к папке с изображениями
