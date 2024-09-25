@@ -1,3 +1,6 @@
+# bot.py
+# ver.2023-12-22
+
 from aiogram import Bot, Dispatcher, types  # pip install aiogram==2.11.2 (https://pypi.org/project/aiogram/)
 from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
