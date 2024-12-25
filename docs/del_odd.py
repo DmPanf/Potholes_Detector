@@ -1,4 +1,5 @@
 # del_odd.py
+
 import os
 
 images_dir = 'images'  # Путь к папке с изображениями
