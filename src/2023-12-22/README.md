@@ -11,3 +11,5 @@ The best approach for our project is to build a system with several smart parts 
 -	User Access and Server Choices: We can decide who gets to use our system and which server should do the work. If one server is busy, we could have a backup ready.
 
 
+###
+
