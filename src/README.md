@@ -1,4 +1,4 @@
-## A high-level architecture diagram
+### A high-level architecture diagram
 
 ![image](https://github.com/DmPanf/Potholes_Detector/assets/99917230/1558b991-b4ca-431b-a1f3-505c9e08c910)
 
@@ -23,16 +23,16 @@ Here's a breakdown of how FastAPI might work with a Telegram Bot in one Docker e
 
 This setup allows users to interact with a complex system through the familiar interface of a Telegram bot, simplifying tasks such as data retrieval, system configuration, or even controlling and monitoring machine learning models and processes.
 
-## Telegram Bot
+### Telegram Bot
 
 The user interface of a Telegram bot typically involves chat interactions where users can send messages, commands, or queries, and receive responses. When a user inputs data incorrectly, the bot is programmed to recognize these errors and provide feedback. This feedback usually includes an error message explaining what went wrong and suggestions for how to input the correct data.
 
 For example, if a user is supposed to enter a date in a specific format (like YYYY-MM-DD) and they enter it incorrectly, the bot might respond with a message such as, "The date format is incorrect. Please enter the date in the 'YYYY-MM-DD' format." This helps guide users towards successful interactions with the bot.
 
 
-## Training Results
+### Training Results
 
-## The Confusion Matrix
+### The Confusion Matrix
 
 ![image](https://github.com/DmPanf/Potholes_Detector/assets/99917230/982c87ab-a1df-4bff-8e9c-b2d94c4a3438)
 
@@ -95,7 +95,7 @@ Overall, the plots indicate that the model has trained effectively, with loss me
 
 ---
 
-## The objective function
+### The objective function
 
 The objective function described here is specifically designed to evaluate the performance of a model tasked with pothole detection. This function plays a central role in the model's training process, as it quantifies the model's accuracy in classifying potholes. The primary goal during training is to minimize this function, which, in essence, means reducing the number of errors the model makes in pothole prediction.
 
