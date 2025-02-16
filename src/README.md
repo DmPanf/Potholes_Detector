@@ -1,8 +1,10 @@
-### A high-level architecture diagram
+## A high-level architecture diagram
 
 ![image](https://github.com/DmPanf/Potholes_Detector/assets/99917230/1558b991-b4ca-431b-a1f3-505c9e08c910)
 
 The image depicts a high-level architecture diagram of a system that integrates various technologies, including FastAPI, Docker, and a Telegram bot.
+
+---
 
 In simple terms, FastAPI is a modern, fast (high-performance) web framework for building APIs with Python. It's based on standard Python type hints, which helps you create robust and production-ready APIs. In this architecture, FastAPI is used to create an interface for CRUD operations (Create, Read, Update, Delete) which can be accessed via HTTP methods (POST, GET, PUT, DELETE). These operations are likely to interact with databases and potentially other services like a knowledge base or rule base.
 
